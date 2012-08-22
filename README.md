@@ -9,6 +9,11 @@ Usage
 
 ````Javascript
   // Set default value to data attribute
+  //
+  // This step is not required. If you do not set this
+  // the default value of the library, or option passed in
+  // will be used as the default value.
+  //
   $("input").data("defaultValue", "Please enter your name...")''
 
   // Configure plugin to run all input fields
